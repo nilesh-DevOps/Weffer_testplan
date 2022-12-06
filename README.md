@@ -5,13 +5,13 @@
 2. Need eclipse IDE to run maven project
 3.In marketplace of eclipse, testNG should be installed and configured 
 ----------------------------------------------
-Download Zip of the code //
-unzip the file and copy the weffer folder
-Open eclipse IDE
-create a worspace 
-using windows explorer go to created workspace location and paste the weffer folder
-In eclipse go to file menu and click on import 
-go to maven and click on Existing maven project and select the weffer folder.
+1. Download Zip of the code //
+2. unzip the file and copy the weffer folder
+3. Open eclipse IDE
+4. create a workspace 
+5. using windows explorer go to created workspace location and paste the weffer folder
+6. In eclipse go to file menu and click on import 
+7. go to maven and click on Existing maven project and select the weffer folder.
 
 
 --------------------------
