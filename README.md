@@ -26,7 +26,7 @@ The output file spark.html is in target/new_report folder
 
 
 --------------Execution---------
-right click on test.java ->run as ->get asn options as run as TestNG.
+right click on test.java ->run as ->get an options as "run as TestNG".
 if option is not displayed means the testng configuration is not proper.
 
 After Execution spark.html is updated
