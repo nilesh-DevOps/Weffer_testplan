@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="105360" started-at="2022-12-07T00:48:43 IST" finished-at="2022-12-07T00:50:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="105360" started-at="2022-12-07T00:48:43 IST" finished-at="2022-12-07T00:50:28 IST">
+      <class name="weffer.weffer.test">
+        <test-method status="PASS" signature="Before_test()[pri:0, instance:weffer.weffer.test@2c34f934]" name="Before_test" is-config="true" duration-ms="799" started-at="2022-12-07T00:48:43 IST" finished-at="2022-12-07T00:48:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_test -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:weffer.weffer.test@2c34f934]" name="beforeclass" is-config="true" duration-ms="0" started-at="2022-12-07T00:48:44 IST" finished-at="2022-12-07T00:48:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:weffer.weffer.test@2c34f934]" name="BeforeMethod" is-config="true" duration-ms="4616" started-at="2022-12-07T00:48:44 IST" finished-at="2022-12-07T00:48:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934]" name="f" duration-ms="28381" started-at="2022-12-07T00:48:48 IST" data-provider="csv" finished-at="2022-12-07T00:49:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[name  sdf sessf, sdsda@sdsd.com, 9876543210, QA:React Front End:React Native, aasdadsa1, 1]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expected data Cannot select more than 2 Actual data Cannot select more than 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expected data Cannot select more than 2 Actual data Cannot select more than 1
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at weffer.weffer.test.f(test.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:weffer.weffer.test@2c34f934]" name="AfterMethod" is-config="true" duration-ms="2754" started-at="2022-12-07T00:49:17 IST" finished-at="2022-12-07T00:49:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=FAILURE method=test.f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:weffer.weffer.test@2c34f934]" name="BeforeMethod" is-config="true" duration-ms="1706" started-at="2022-12-07T00:49:19 IST" finished-at="2022-12-07T00:49:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934]" name="f" duration-ms="22960" started-at="2022-12-07T00:49:21 IST" data-provider="csv" finished-at="2022-12-07T00:49:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[name12  sdf sessf, sdsda@sdsd.com, 9876543210, QA, aasdadsa1, 1]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Validation alert didn't appear path=//span[contains(text(),"Name")]/../../../../div[3]/span]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Validation alert didn't appear path=//span[contains(text(),"Name")]/../../../../div[3]/span
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at weffer.weffer.test.f(test.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:weffer.weffer.test@2c34f934]" name="AfterMethod" is-config="true" duration-ms="1889" started-at="2022-12-07T00:49:44 IST" finished-at="2022-12-07T00:49:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=FAILURE method=test.f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:weffer.weffer.test@2c34f934]" name="BeforeMethod" is-config="true" duration-ms="1698" started-at="2022-12-07T00:49:46 IST" finished-at="2022-12-07T00:49:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934]" name="f" duration-ms="20790" started-at="2022-12-07T00:49:48 IST" data-provider="csv" finished-at="2022-12-07T00:50:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[name sdf sessf, sd  sda@sdsd.com, 9876543210, QA, aasdadsa1, 2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:weffer.weffer.test@2c34f934]" name="AfterMethod" is-config="true" duration-ms="719" started-at="2022-12-07T00:50:08 IST" finished-at="2022-12-07T00:50:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=test.f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:weffer.weffer.test@2c34f934]" name="BeforeMethod" is-config="true" duration-ms="1666" started-at="2022-12-07T00:50:09 IST" finished-at="2022-12-07T00:50:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934]" name="f" duration-ms="16445" started-at="2022-12-07T00:50:11 IST" data-provider="csv" finished-at="2022-12-07T00:50:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[name sdf sessf, , 9876543210, QA, aasdadsa1, 2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:weffer.weffer.test@2c34f934]" name="AfterMethod" is-config="true" duration-ms="709" started-at="2022-12-07T00:50:27 IST" finished-at="2022-12-07T00:50:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=test.f(java.util.List)[pri:1, instance:weffer.weffer.test@2c34f934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="After_test()[pri:0, instance:weffer.weffer.test@2c34f934]" name="After_test" is-config="true" duration-ms="125" started-at="2022-12-07T00:50:28 IST" finished-at="2022-12-07T00:50:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_test -->
+      </class> <!-- weffer.weffer.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
