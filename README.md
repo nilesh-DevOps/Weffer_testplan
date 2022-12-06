@@ -3,7 +3,7 @@
 //prerequisite
 1: Need java 8 or higher
 2. Need eclipse IDE to run maven project
-3.In marketplace of eclipse testNG should be installed and configured 
+3.In marketplace of eclipse, testNG should be installed and configured 
 ----------------------------------------------
 Download Zip of the code //
 unzip the file and copy the weffer folder
