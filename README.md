@@ -21,6 +21,10 @@ The Main execution file is test.java which is embedded in(src/test/java) weffer.
 --------------Input file---
 The input file abcd.csv is in config folder
 
+1. First row is header.
+2. If you want to select multiple position then write QA:Node where in ":" is the separater
+
+
 -------------Output file------
 The output file spark.html is in target/new_report folder
 
