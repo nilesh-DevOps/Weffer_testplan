@@ -22,6 +22,8 @@ public class validations {
 		this.driver=driver;
 		k= new Keywords(driver,s,softAssert);
 	}
+	
+	//Assuming in name only ', alphabets and spaces are allowed
 	public boolean validations_for_name(String name) {
 		s.info("Validate Name");
 		String pattern = "[a-zA-Z\\s']+";
@@ -53,7 +55,8 @@ public class validations {
 			return true;
 		}
 	}
-
+	
+	//Assuming max can select 2 only
 	public boolean validations_for_positions() throws Exception {
 		s.info("Validate Positions");
 		String validation_position="//span[contains(text(),\"Which position(s) are you interested in?\")]/../../../../div[3]/span";
